@@ -1,0 +1,37 @@
+main {
+  .pink-section {
+    background-color: #ed145b;
+  }
+  .wrapper {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2 {
+      margin: 0 0 50px 0;
+      font-size: 3.5rem;
+      font-weight: 300;
+      .header-oneword {
+        font-weight: initial;
+        font-style: italic;
+        font-family: "Libre Baskerville", serif;
+      }
+    }
+    div {
+      display: flex;
+      justify-content: center;
+      font-size: 2rem;
+      margin: 0 150px;
+      img {
+        margin: 20px 0;
+      }
+      ul {
+        // margin: 0 25px;
+      }
+      li p {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+      }
+    }
+  }
+}
